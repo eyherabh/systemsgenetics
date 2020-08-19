@@ -4,4 +4,4 @@
 
 genotypeHarmonizerDir=`dirname $0`
 
-java -Xmx1g -jar ${genotypeHarmonizerDir}/GenotypeHarmonizer.jar $*
+java -Xmx1g -jar "${genotypeHarmonizerDir}/GenotypeHarmonizer.jar" "$@"
